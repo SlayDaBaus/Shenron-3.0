@@ -98,4 +98,4 @@ switch (args[0].toLowerCase()) {
 
 
 
-bot.login('MzkxNzQ3NzI5MzA4NTE2MzUy.DRdLJQ.eWg4pWUFA-HpLrUQnZSbbf1Kfas');
+bot.login('client.login(process.env.BOT_TOKEN)');
