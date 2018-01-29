@@ -63,4 +63,4 @@ if (msg.content.startsWith(prefix + ""))
 	fs.writeFile('./XP.json', JSON.stringify(XP), console.error);
 
 });
-bot.login("MzkxNzQ3NzI5MzA4NTE2MzUy.DRdLJQ.eWg4pWUFA-HpLrUQnZSbbf1Kfas")
+bot.login(process.env.BOT_TOKEN)
